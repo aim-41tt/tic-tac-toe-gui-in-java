@@ -4,7 +4,7 @@ public class Pole {
 	
 		public char pole [][] = new char [3][3];
 		private boolean flag;
-		private char znak='x';
+		private char znak;
 		
 		public Pole() {
 			resetPole();
@@ -20,6 +20,7 @@ public class Pole {
 					pole[i][j] = ' ';
 				}	
 			}
+			
 		}
 		
 		public void User_hod( int x, int y) {
